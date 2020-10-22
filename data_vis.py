@@ -95,7 +95,7 @@ def df_to_img(input_name, df, output_name):
     config = imgkit.config(wkhtmltoimage=path_wkthmltoimage)
     
     options = {
-    '--log-level': 'none'
+    'log-level': 'none'
     }
     
     imgkit.from_file(input_name, output_name, config = config, options = options)
