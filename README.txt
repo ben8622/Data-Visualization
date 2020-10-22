@@ -4,7 +4,7 @@ https://github.com/ben8622
 DESC:
 ~~~~~~~~~~~~~~~~~~~~
 IMPORTANT NOTE:
-Require to have wkhtml downloaded to convert your DataFrames into .jpg files.
+Require to have wkhtmltopdf downloaded to convert your DataFrames into .jpg files.
 The excel files you use for this must be structured in the same way as the one provided
 which is a single column of data, per sheet, with first cell of the column being the 
 title of the data, an example would be:
