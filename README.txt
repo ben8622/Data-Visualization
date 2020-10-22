@@ -16,11 +16,13 @@ data[2]
 .
 data[n]
 
-This project was my introduction to data visualization with python. I saved some of my
-images as .jpg and others as .png. There's no rhyme or reason for it, I was just seeing
-the capabilties of these modules. Many things are hardcoded as because they will change
-on account of what your data is. Some examples of things that are hardcoded are:
+This project was my introduction to data visualization with python. Here we use
+python to create a visualization of data sets that we went out and collected on
+our own. I saved some of my images as .jpg and others as .png. There's no rhyme or 
+reason for it, I was just seeing the capabilties of these modules. Many things are 
+hardcoded as because they will change on account of what your data is. 
 
+Some examples of things that are hardcoded are:
 -The names of the excel sheets holding data
 -# of bins we want for each histogram
 -histogram stylizing
