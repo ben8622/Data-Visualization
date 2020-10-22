@@ -1,6 +1,10 @@
 Created by Benjamin Knight
 https://github.com/ben8622
 
+Things to be updated:
+-Better variable naming
+-Error catching
+
 DESC:
 ~~~~~~~~~~~~~~~~~~~~
 IMPORTANT NOTE:
