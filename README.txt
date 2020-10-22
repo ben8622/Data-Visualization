@@ -13,8 +13,8 @@ be used on them, and how they are structured. A pandas Series data structure wou
 these data sets better, but they are simpler to understand and where's the fun in that?
 
 The numpy module is used mainly for numpy arrays. These array have an amazing amount of 
-complex methods that can be done on them. Here we use numpy to generate these arrays
-from out DataFrame objects. These arrays are then used as the values for our
+complex methods that can be done on them. Here we use numpy to generate arrays
+from our DataFrame objects. These arrays are then used as the values for our
 histogram and its bin edges.
 
 The matplotlib module is used for the creation of of our boxplots and histograms. I'd love
@@ -35,13 +35,13 @@ ABSTRACT FLOW:
 1.)Import .xlsx file with pd.ExcelFile()
 2.)Parse each sheet of the excel file into a seperate DataFrame with .parse()
 
-3.)Create a 2D numpy array with each of the data sets (this was because we wanted
+3.)Create a 2D numpy array using each of the data sets (this was because we wanted
 both of our data sets on the same graph for boxplots)
 4.)Use the numpy array to create boxplots with .boxplot()
 5.)Stylize
 6.)Save it as a .png
 
-7.)Create 2 numpy arrays with a single DataFrame
+7.)Create 2 seperate numpy arrays with a single DataFrame
 8.)Use these numpy arrays to create a bar graph with matplotlib.bar()
 9.)Stylize
 10.)Save it as a .png
@@ -49,7 +49,7 @@ both of our data sets on the same graph for boxplots)
 
 12.)Create frequency tables from each data set with a pre-determined range size, for us we counted in 2s
 
-13.)Convert a DataFrames you want as .jpg into .html files along with the CSS styling
+13.)Convert a DataFrame you want as .jpg into .html files along with the CSS styling
 14.)Convert these .html files into .jpgs with imgkit.from_file()
 15.)Repeat 13-14 for all DataFrames you need
 
