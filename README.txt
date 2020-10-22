@@ -3,9 +3,28 @@ https://github.com/ben8622
 
 DESC:
 ~~~~~~~~~~~~~~~~~~~~
+IMPORTANT NOTE:
+The excel files you use for this must be structured in the same way as the one provided
+which is a single column of data, per sheet, with first cell of the column being the 
+title of the data, an example would be:
+
+Data Title
+data[1]
+data[2]
+.
+.
+.
+data[n]
+
 This project was my introduction to data visualization with python. I saved some of my
 images as .jpg and others as .png. There's no rhyme or reason for it, I was just seeing
-the capabilties of these modules.
+the capabilties of these modules. Many things are hardcoded as because they will change
+on account of what your data is. Some examples of things that are hardcoded are:
+
+-The names of the excel sheets holding data
+-# of bins we want for each histogram
+-histogram stylizing
+-etc
 
 The pandas module is used for its DataFrame data structure. This was an extreme overkill for these very simple sets
 of data, however, I wanted to understand how they work, the functions that can
